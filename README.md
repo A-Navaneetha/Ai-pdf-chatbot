@@ -6,8 +6,6 @@ The application extracts text from PDF documents, divides the content into small
 
 Built with **Python, Flet, PyMuPDF, pypdf, LangChain Text Splitters, and ChromaDB**.
 
----
-
 ## ✨ Features
 
 * 📂 Upload and process PDF documents
@@ -23,8 +21,6 @@ Built with **Python, Flet, PyMuPDF, pypdf, LangChain Text Splitters, and ChromaD
 * 📊 Display vector distance for retrieved results
 * ⚡ Responsive progress indicators during PDF processing
 * 🖥️ Cross-platform UI using Flet
-
----
 
 ## 🏗️ System Architecture
 
@@ -99,8 +95,6 @@ The application follows the following document retrieval pipeline:
 └──────────────────────┘
 ```
 
----
-
 ## 🔄 How It Works
 
 ### 1. Upload PDF
@@ -170,8 +164,6 @@ The retrieved content is displayed with:
 
 Previous queries and their retrieved results are maintained during the current application session and displayed through **History Mode**.
 
----
-
 ## 🛠️ Technologies Used
 
 | Technology                   | Purpose                                |
@@ -183,8 +175,6 @@ Previous queries and their retrieved results are maintained during the current a
 | **LangChain Text Splitters** | Document chunking                      |
 | **ChromaDB**                 | Vector database and semantic retrieval |
 | **Regular Expressions**      | Text cleaning                          |
-
----
 
 ## 📁 Project Structure
 
@@ -221,8 +211,6 @@ Contains the complete application logic including:
 **`requirements.txt`**
 
 Contains the Python dependencies required to run the application.
-
----
 
 ## 🚀 Installation
 
@@ -264,8 +252,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
-
 ## ▶️ Run the Application
 
 Run the following command:
@@ -275,8 +261,6 @@ python chatbot.py
 ```
 
 The Flet application will start and display the **Chat With PDF** interface.
-
----
 
 ## 💬 Example Usage
 
@@ -326,8 +310,6 @@ What are the key concepts mentioned on page 5?
 
 The application returns the most relevant document sections along with their page numbers.
 
----
-
 ## 🖥️ Application Modes
 
 ### 💬 Chat Mode
@@ -341,8 +323,6 @@ Displays information about the application and its architecture.
 ### 🕘 History Mode
 
 Displays previous queries and their retrieved document sections during the current session.
-
----
 
 ## ⚙️ Current Retrieval Configuration
 
@@ -359,8 +339,6 @@ Database Type    : Ephemeral
 
 These parameters can be modified in `chatbot.py` depending on the document type and retrieval requirements.
 
----
-
 ## 📌 Use Cases
 
 The application can be useful for:
@@ -374,8 +352,6 @@ The application can be useful for:
 * 📄 Project reports
 * 📊 Manuals and guidelines
 
----
-
 ## ⚠️ Limitations
 
 * The current system primarily works with text-based PDFs.
@@ -384,8 +360,6 @@ The application can be useful for:
 * The application retrieves relevant document sections rather than generating a synthesized natural-language answer.
 * Search history is maintained only during the current application session.
 * Very large PDF documents may require additional memory and processing time.
-
----
 
 ## 🔮 Future Enhancements
 
