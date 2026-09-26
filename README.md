@@ -6,7 +6,7 @@ The application extracts text from PDF documents, divides the content into small
 
 Built with **Python, Flet, PyMuPDF, pypdf, LangChain Text Splitters, and ChromaDB**.
 
-![Chat With PDF Application](assets/chat-with-pdf.png)
+![Chat With PDF Application](assets/chat bot.png)
 
 ## ✨ Features
 
